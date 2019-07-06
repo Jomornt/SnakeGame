@@ -2,7 +2,7 @@ var timer;
 drawbegin();
 function drawbegin(){
 	var image = new Image();
-	image.src = 'zct2.jpg';
+	image.src = 'back.jpg';
 	image.onload = function(e){
 		context.drawImage(image,0,0,canvas.width,canvas.height);
 	}	
